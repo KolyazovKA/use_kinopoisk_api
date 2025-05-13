@@ -18,9 +18,7 @@ export function SearchByPerson({ onSearch }) {
         await new Promise(resolve => setTimeout(resolve, 300));
 
         const fakeSuggestions = [
-          { id: 1, name: `${value} Иванов`, photo: null },
-          { id: 2, name: `Петр ${value}ов`, photo: null },
-          { id: 3, name: `Мария ${value}ова`, photo: null }
+          { id: 1, name: `${value}`, photo: null }
         ];
 
         setSuggestions(fakeSuggestions);

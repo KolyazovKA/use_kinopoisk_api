@@ -83,8 +83,8 @@ export function Filters({ onFilterChange, filters, onItemsPerPageChange, itemsPe
         <div className="filter-group">
           <label>Порядок:</label>
           <select value={filters.sortOrder} onChange={handleSortOrderChange}>
-            <option value="desc">По убыванию</option>
-            <option value="asc">По возрастанию</option>
+            <option value="1">По убыванию</option>
+            <option value="-1">По возрастанию</option>
           </select>
         </div>
 

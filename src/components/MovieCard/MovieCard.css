@@ -12,7 +12,10 @@
 
 .movie-image-wrapper {
   position: relative;
+  image-rendering: optimizeQuality;
 }
+
+
 
 .movie-poster {
   width: 100%;
